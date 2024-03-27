@@ -1,0 +1,29 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Example background color */
+    color: #000; /* Example text color */
+    padding: 10px 20px; /* Example padding */
+  }
+  
+  .logo {
+    font-size: 1.5rem; /* Example font size */
+  }
+  
+  .header-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .header-icons > div {
+    margin-left: 5px;
+  }
+
+  /* Adjust icon styling as needed */
+  .header-icons > div > img {
+    width: 20px; /* Example icon size */
+    height: 20px; /* Example icon size */
+  }
+  

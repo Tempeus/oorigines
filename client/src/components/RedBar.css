@@ -1,0 +1,12 @@
+/* RedBar.css */
+.red-bar {
+    background-color: red;
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Ensure the red bar appears on top of other content */
+    margin-bottom: 10px; /* Add margin equal to the height of the red bar */
+  }
+  
